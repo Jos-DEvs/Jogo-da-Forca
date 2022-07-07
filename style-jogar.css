@@ -1,0 +1,128 @@
+body
+{
+	height: 90vh;
+    width: 100vw;
+	background-color: silver;
+}
+
+.mini-body
+{
+	position: relative;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: white;
+	/*border: 1px solid green;*/	
+}
+
+.container
+{
+	position: absolute;
+	top: 10px;
+	left: 250px;
+}
+
+.conteudo
+{
+	position: relative;
+	top: 20px;
+	width: 950px; 
+	height: 700px;  /* 660px */
+	margin: auto auto;
+	/*border: 1px solid green;*/
+}
+
+.quadro-canvas 
+{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	/*border: 1px solid green;*/
+}
+
+.palavra /* Não existe mais */
+{
+	/*margin: 0 0 20px;*/
+	padding: 10px 25px;
+	width: 100%;
+	/*border: none;*/
+	border: 1px solid aqua;
+	border-radius: 5px;
+}
+
+nav
+{
+	position: absolute;
+	bottom: 50px;
+	left: 380px;
+	/*border: 1px solid green;*/
+}
+
+nav li
+{
+	display: inline;
+}
+
+.jogar
+{
+	width: 190px;
+	padding: 15px 35px;
+	margin-right: 15px;
+	background: blue;	
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	transition: 1s background;
+	cursor: pointer;	
+}
+
+.jogar a
+{
+	text-decoration: none;
+	color: aqua;
+}
+
+.jogar:hover
+{
+	border: 1px solid aqua;
+	background: white;
+}
+
+.adicionar
+{
+	width: 190px;
+	padding: 15px 40px;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	border: 1px solid blue;
+	border-radius: 5px;
+	transition: 1s background;
+	cursor: pointer;
+}
+
+.adicionar a
+{
+	text-decoration: none;
+	color: aqua;
+}
+
+.adicionar:hover
+{
+	background: blue;
+	color: white;
+}
+
+.copyright1 /* Não existe mais*/
+{	
+	font-size: 18px;
+	text-align: center;	
+	/*height: 50px;*/
+	/*border: 1px solid green;*/
+}
+
+.linkedin1 /* Não existe mais*/
+{
+	border-radius: 5px;
+}
